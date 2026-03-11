@@ -1,0 +1,15 @@
+{
+  "SPIRITS-BIND.title": "束缚",
+  "SPIRITS-BIND.description": "生物的下次攻击造成减少的伤害。",
+  "SPIRITS-BIND.smartDescription": "{OnPlayer:你的|[gold]{OwnerName}[/gold]的}下次攻击少造成[blue]{Amount}[/blue]点伤害。",
+  "SPIRITS-STONE_REMNANTS.title": "残岩",
+  "SPIRITS-STONE_REMNANTS.description": "消耗以触发【增强】效果，上限7。",
+  "SPIRITS-FLASH.title": "瞬间",
+  "SPIRITS-FLASH.description": "瞬间达到4时：获得1层无实体，瞬间-4，结束当前回合。",
+  "SPIRITS-STATIC_REMNANTS.title": "残影",
+  "SPIRITS-STATIC_REMNANTS.description": "下回合开始时，对全体敌人造成等值伤害（不受属性影响），然后归零。",
+  "SPIRITS-FIRE_REMNANT.title": "残焰",
+  "SPIRITS-FIRE_REMNANT.description": "可由激活残焰消耗，获得等量的瞬间。",
+  "SPIRITS-OVERLOAD.title": "超载",
+  "SPIRITS-OVERLOAD.description": "每层超载：使用攻击牌时获得4点残影。"
+}

@@ -1,0 +1,6 @@
+{
+  "SPIRITS-PERSIST.title": "持续",
+  "SPIRITS-PERSIST.description": "每回合打出{Persist:cond:>1?[blue]{Persist}[/blue] |}{Persist:plural:次|次}后，此牌返回手牌。",
+  "SPIRITS-DISSOLVE.title": "溶解",
+  "SPIRITS-DISSOLVE.description": "消耗[blue]{Dissolve}[/blue]点[gold]格挡[/gold]以激活此效果。"
+}

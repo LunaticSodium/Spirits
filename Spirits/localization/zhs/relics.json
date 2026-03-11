@@ -1,0 +1,56 @@
+{
+  "SPIRITS-CORRODED_RIBBON.title": "腐蚀丝带",
+  "SPIRITS-CORRODED_RIBBON.flavor": "",
+  "SPIRITS-CORRODED_RIBBON.description": "攻击对附有异常状态的敌人额外造成[blue]{ExtraDamage}[/blue]点伤害。",
+  "SPIRITS-IMPURE_COIL.title": "不纯线圈",
+  "SPIRITS-IMPURE_COIL.flavor": "",
+  "SPIRITS-IMPURE_COIL.description": "攻击对敌人每个异常状态额外造成[blue]{ExtraDamage}[/blue]点伤害。",
+
+  "SPIRITS-RAMMED_EARTH.title": "垒土",
+  "SPIRITS-RAMMED_EARTH.description": "战斗开始时，获得2点残岩。",
+  "SPIRITS-RAMMED_EARTH.flavor": "",
+
+  "SPIRITS-STONE_PACT.title": "岩契",
+  "SPIRITS-STONE_PACT.description": "回合结束时，若你没有残岩，获得2点残岩。",
+  "SPIRITS-STONE_PACT.flavor": "",
+
+  "SPIRITS-COLD_ASH.title": "死灰",
+  "SPIRITS-COLD_ASH.description": "当你的生命值降至25%以下时，获得2点瞬间。",
+  "SPIRITS-COLD_ASH.flavor": "",
+
+  "SPIRITS-SHADOW_IN_MIRROR.title": "镜中之影",
+  "SPIRITS-SHADOW_IN_MIRROR.description": "每当一张牌被消耗，获得5点格挡。",
+  "SPIRITS-SHADOW_IN_MIRROR.flavor": "",
+
+  "SPIRITS-OSCILLATION_CIRCUIT.title": "震荡回路",
+  "SPIRITS-OSCILLATION_CIRCUIT.description": "残影触发后，获得触发值一半的残影。",
+  "SPIRITS-OSCILLATION_CIRCUIT.flavor": "",
+
+  "SPIRITS-FORMLESS_TWIN_BLADES.title": "无形双刃",
+  "SPIRITS-FORMLESS_TWIN_BLADES.description": "瞬间触发时，对所有敌人造成20点伤害。",
+  "SPIRITS-FORMLESS_TWIN_BLADES.flavor": "",
+
+  "SPIRITS-THREE_BOWLS.title": "三碗",
+  "SPIRITS-THREE_BOWLS.description": "进入精英房间时，回复你失去生命值的一半（向下取整）。",
+  "SPIRITS-THREE_BOWLS.flavor": "",
+
+  "SPIRITS-CIVIL_ENGINEERING.title": "土木工程",
+  "SPIRITS-CIVIL_ENGINEERING.description": "每回合开始时，你和敌人各获得3点附甲。",
+  "SPIRITS-CIVIL_ENGINEERING.flavor": "",
+
+  "SPIRITS-JIUTAI.title": "九台",
+  "SPIRITS-JIUTAI.description": "战斗开始时，拥有4点残岩、2点瞬间与8点残影。",
+  "SPIRITS-JIUTAI.flavor": "",
+
+  "SPIRITS-FEEDBACK_CIRCUIT.title": "反馈回路",
+  "SPIRITS-FEEDBACK_CIRCUIT.description": "受到伤害时，先扣除残影层数。",
+  "SPIRITS-FEEDBACK_CIRCUIT.flavor": "",
+
+  "SPIRITS-EMBER_LANTERN.title": "灰烬提灯",
+  "SPIRITS-EMBER_LANTERN.description": "瞬间触发时只减少3点而非4点。",
+  "SPIRITS-EMBER_LANTERN.flavor": "",
+
+  "SPIRITS-UNBOUND.title": "解缚",
+  "SPIRITS-UNBOUND.description": "战斗开始时，从巨石形态、灰烬形态、风暴形态中选一张加入手牌。",
+  "SPIRITS-UNBOUND.flavor": ""
+}
