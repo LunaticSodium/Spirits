@@ -1,4 +1,4 @@
-﻿using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Commands.Builders;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Powers;
@@ -7,9 +7,9 @@ using MegaCrit.Sts2.Core.ValueProps;
 using System.Threading.Tasks;
 using BaseLib.Extensions;
 
-namespace Oddmelt.Powers;
+namespace Spirits.Powers;
 
-public sealed class Bind : OddmeltPower
+public sealed class Bind : SpiritsPower
 {
     private class Data
     {

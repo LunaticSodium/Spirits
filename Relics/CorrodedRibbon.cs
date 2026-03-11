@@ -1,4 +1,4 @@
-﻿using BaseLib.Extensions;
+using BaseLib.Extensions;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.Entities.Relics;
@@ -8,9 +8,9 @@ using MegaCrit.Sts2.Core.ValueProps;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Oddmelt.Relics;
+namespace Spirits.Relics;
 
-public class CorrodedRibbon : OddmeltRelic
+public class CorrodedRibbon : SpiritsRelic
 {
     private const string _extraDamageKey = "ExtraDamage";
 

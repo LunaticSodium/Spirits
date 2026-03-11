@@ -1,4 +1,4 @@
-﻿using BaseLib.Utils;
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.CardSelection;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -10,9 +10,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Cards.Uncommon;
+namespace Spirits.Cards.Uncommon;
 
-public class Tearaway() : OddmeltCard(1, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy)
+public class Tearaway() : SpiritsCard(1, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(9, ValueProp.Move), new DissolveVar(3)];
 

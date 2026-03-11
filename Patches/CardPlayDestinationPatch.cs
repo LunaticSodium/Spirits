@@ -1,11 +1,11 @@
-﻿using BaseLib.Utils.Patching;
+using BaseLib.Utils.Patching;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Models;
-using Oddmelt.Cards;
+using Spirits.Cards;
 using System.Collections.Generic;
 
-namespace Oddmelt.Patches;
+namespace Spirits.Patches;
 
 
 [HarmonyPatch(typeof(CardModel), "GetResultPileType")]
@@ -29,9 +29,23 @@ public class CardPlayDestinationPatch
     //patched to be lower priority than exhaust
     public static PileType ChangeDestination(PileType dest, CardModel model)
     {
-        if (OddmeltKeywords.IsStitch(model))
+        if (SpiritsKeywords.IsStitch(model))
         {
             return StitchPile.CustomType;
+        }
+        if (model.Keywords.Contains(SpiritsKeywords.Void))
+        {
+            return PileType.Exhaust;
+        }
+        if (model is Spirits.Cards.Token.SpiritBlade
+            || model is Spirits.Cards.Token.ActivateFireRemnant
+            || model is Spirits.Cards.Token.ReturnItInKind)
+        {
+            return PileType.Exhaust;
+        }
+        if (model is Spirits.Cards.Rare.Rekindle)
+        {
+            return PileType.Exhaust;
         }
         return dest;
     }

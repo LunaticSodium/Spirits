@@ -1,17 +1,17 @@
-﻿using BaseLib.Utils;
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.ValueProps;
-using Oddmelt.Patches;
+using Spirits.Patches;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Cards.Common;
+namespace Spirits.Cards.Common;
 
-public class Wirecasting() : OddmeltCard(1, CardType.Attack, CardRarity.Common, TargetType.AllEnemies)
+public class Wirecasting() : SpiritsCard(1, CardType.Attack, CardRarity.Common, TargetType.AllEnemies)
 {
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [OddmeltKeywords.Stitch];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [SpiritsKeywords.Stitch];
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DamageVar(4, ValueProp.Move)
         ];

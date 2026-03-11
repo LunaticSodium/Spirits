@@ -1,4 +1,4 @@
-﻿using BaseLib.Utils;
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
@@ -9,9 +9,9 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Cards;
+namespace Spirits.Cards;
 
-public class TestCard() : OddmeltCard(1, CardType.Attack, CardRarity.Token, TargetType.AnyEnemy)
+public class TestCard() : SpiritsCard(1, CardType.Attack, CardRarity.Token, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(9, ValueProp.Move)];
 

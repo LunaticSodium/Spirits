@@ -1,0 +1,253 @@
+{
+  "SPIRITS-TEST_CARD.title": "Card",
+  "SPIRITS-TEST_CARD.description": "Description",
+  "SPIRITS-STRIKE_SPIRITS.title": "Strike",
+  "SPIRITS-STRIKE_SPIRITS.description": "Deal {Damage:diff()} damage.",
+  "SPIRITS-DEFEND_SPIRITS.title": "Defend",
+  "SPIRITS-DEFEND_SPIRITS.description": "Gain {Block:diff()} [gold]Block[/gold].",
+  "SPIRITS-SPLATTER.title": "Splatter",
+  "SPIRITS-SPLATTER.description": "Apply {Debuff:diff()} [gold]Bind[/gold] to ALL enemies.\n[gold]Dissolve[/gold] {Dissolve:diff()}: Apply {Debuff2:diff()} additional [gold]Bind[/gold].",
+  "SPIRITS-LOOSE_THREADS.title": "Loose Threads",
+  "SPIRITS-LOOSE_THREADS.description": "Draw {Cards:diff()} {Cards:plural:card|cards}.\n[gold]Woven[/gold].",
+  "SPIRITS-FORMING.title": "Forming",
+  "SPIRITS-FORMING.description": "Gain {Block:diff()} [gold]Block[/gold].\n[gold]Stitch[/gold].",
+  "SPIRITS-NEEDLEWORK.title": "Needlework",
+  "SPIRITS-NEEDLEWORK.description": "Deal {Damage:diff()} damage.\n[gold]Persist[/gold] {Persist:diff()}.",
+  "SPIRITS-WIRECASTING.title": "Wirecasting",
+  "SPIRITS-WIRECASTING.description": "Deal {Damage:diff()} damage to ALL enemies.\n[gold]Stitch[/gold].",
+  "SPIRITS-IMPACT_PREP.title": "Impact Prep",
+  "SPIRITS-IMPACT_PREP.description": "Gain {Block:diff()} [gold]Block[/gold] next turn.\n[gold]Dissolve[/gold] {Dissolve:diff()}: Gain {Block2:diff()} [gold]Block[/gold] next turn.",
+  "SPIRITS-ETCHING.title": "Etching",
+  "SPIRITS-ETCHING.description": "Deal {Damage:diff()} damage.\n[gold]Persist[/gold] {Persist:diff()}.",
+  "SPIRITS-ROTATION.title": "Rotation",
+  "SPIRITS-ROTATION.description": "Gain {Block:diff()} [gold]Block[/gold].\nDeal {Damage:diff()} damage.\nDraw {Cards:diff()} {Cards:plural:card|cards}.",
+  "SPIRITS-TEARAWAY.title": "Tearaway",
+  "SPIRITS-TEARAWAY.description": "Deal {Damage:diff()} damage.\n[gold]Dissolve[/gold] {Dissolve:diff()}: Put a card from your [gold]Discard Pile[/gold] into your [gold]Hand[/gold].",
+  "SPIRITS-MASS_EXPULSION.title": "Mass Expulsion",
+  "SPIRITS-MASS_EXPULSION.description": "Deal {Damage:diff()} damage once.\n[gold]Dissolve[/gold] {Dissolve:diff()}: Hit twice as many times.\n[gold]Dissolve[/gold] {Dissolve:diff()}: Hit twice as many times.{IfUpgraded:show:\n[gold]Dissolve[/gold] {Dissolve:diff()}: Hit twice as many times.}",
+  "SPIRITS-WEAVE.description": "",
+  "SPIRITS-WEAVE.title": "",
+  "SPIRITS-SPIRIT_BLADE.title": "Spirit Blade",
+  "SPIRITS-SPIRIT_BLADE.description": "Deal 8 (10) damage. Gain 4 (5) Static Remnants. Consume. Retain.",
+  "SPIRITS-ACTIVATE_FIRE_REMNANT.title": "Activate Fire Remnant",
+  "SPIRITS-ACTIVATE_FIRE_REMNANT.description": "Gain Flash equal to your Fire Remnant stacks. Retain. Consume.",
+  "SPIRITS-RETURN_IT_IN_KIND.title": "Return It in Kind",
+  "SPIRITS-RETURN_IT_IN_KIND.description": "Void. Consume. If the enemy has Strength, apply Weak 2 (3). If the enemy has Dexterity, apply Vulnerable 2 (3). If the enemy has Block, deal additional damage equal to 2 (3)x its Block value.",
+  "SPIRITS-EARTHSHATTER.title": "Earthshatter",
+  "SPIRITS-EARTHSHATTER.description": "Deal 4 (7) damage. [Vulnerable 1].",
+  "SPIRITS-THUNDER_CLAP.title": "Thunder Clap",
+  "SPIRITS-THUNDER_CLAP.description": "Deal 10 (12) damage to ALL enemies. Apply Weak 2 (3).",
+  "SPIRITS-SEVEN_WOUNDS_FIST.title": "Seven-Wounds Fist",
+  "SPIRITS-SEVEN_WOUNDS_FIST.description": "Lose 2 HP. Deal 7 (9) damage. Gain 7 (9) Block.",
+  "SPIRITS-GEOMAGNETIC_GRIP.title": "Geomagnetic Grip",
+  "SPIRITS-GEOMAGNETIC_GRIP.description": "Deal 7 (10) damage. Apply Weak 1 [3].",
+  "SPIRITS-PERFECT_JADE.title": "Perfect Jade",
+  "SPIRITS-PERFECT_JADE.description": "Gain 8 (11) Block. Gain 1 Stone Remnant.",
+  "SPIRITS-BOULDER_SMASH.title": "Boulder Smash",
+  "SPIRITS-BOULDER_SMASH.description": "Deal 6 (9) damage. [+6 damage].",
+  "SPIRITS-RESONANT_PULSE.title": "Resonant Pulse",
+  "SPIRITS-RESONANT_PULSE.description": "Deal 5 (7) damage to ALL enemies. Gain Block equal to the damage dealt. Void.",
+  "SPIRITS-PULSE_CARD.title": "Pulse",
+  "SPIRITS-PULSE_CARD.description": "Deal 6 (9) damage, then deal additional damage equal to your Static Remnants.",
+  "SPIRITS-DISSIMILATE.title": "Dissimilate",
+  "SPIRITS-DISSIMILATE.description": "Deal 8 (12) damage to ALL enemies. Flash 2. Void.",
+  "SPIRITS-SOARING_STRIKE.title": "Soaring Strike",
+  "SPIRITS-SOARING_STRIKE.description": "Deal 7 (10) damage. End the current turn. At the start of your next turn, gain 2 Energy.",
+  "SPIRITS-DRUNKEN_STRIKE.title": "Drunken Strike",
+  "SPIRITS-DRUNKEN_STRIKE.description": "Swap your Dexterity and Strength. Deal 10 (13) damage.",
+  "SPIRITS-ROLLING_STRIKE.title": "Rolling Strike",
+  "SPIRITS-ROLLING_STRIKE.description": "Deal 10 (13) damage. If you have drawn a card this turn, refund 1 Energy.",
+  "SPIRITS-REKINDLE.title": "Rekindle",
+  "SPIRITS-REKINDLE.description": "Deal 10 (12) damage to a single enemy. Heal HP equal to the damage dealt. Flash 3. Consume.",
+  "SPIRITS-RETURN_TO_ZHAO.title": "Return to Zhao",
+  "SPIRITS-RETURN_TO_ZHAO.description": "Deal 24 (30) damage to a single enemy. If this kills, gain 3 (4) Stone Remnants; otherwise gain 16 (20) Block.",
+  "SPIRITS-DOUBLE_IMPACT.title": "Double Impact",
+  "SPIRITS-DOUBLE_IMPACT.description": "Deal 15 (18) damage to a single enemy. Return a random Attack from your discard pile to your hand. Flash 2.",
+  "SPIRITS-SHATTERING_STRIKE.title": "Shattering Strike",
+  "SPIRITS-SHATTERING_STRIKE.description": "Deal 15 (20) damage. Randomly Consume 2 cards from your hand. Void.",
+  "SPIRITS-HARDENED_STRIKE.title": "Hardened Strike",
+  "SPIRITS-HARDENED_STRIKE.description": "Deal 9 (12) damage. Gain 2 Stone Remnants.",
+
+  "SPIRITS-SLEIGHT_OF_FIST.title": "Sleight of Fist",
+  "SPIRITS-SLEIGHT_OF_FIST.description": "Deal 5 (7) damage to ALL enemies. Flash 1. [Double damage in Elite rooms].",
+
+  "SPIRITS-SHADOWLESS_KICK.title": "Shadowless Kick",
+  "SPIRITS-SHADOWLESS_KICK.description": "Deal 6 (8) damage. Flash 1. [Double damage in normal rooms].",
+
+  "SPIRITS-ION_SEVER.title": "Ion Sever",
+  "SPIRITS-ION_SEVER.description": "Deal 7 damage. Gain Static Remnants equal to damage dealt. [Cost 1 → 0].",
+
+  "SPIRITS-DANCE_OF_SHADOWS.title": "Dance of Shadows",
+  "SPIRITS-DANCE_OF_SHADOWS.description": "Deal 9 damage. Draw 1 card for every 5 Static Remnants. [Cost 1 → 0].",
+
+  "SPIRITS-ETHEREAL_IMPACT.title": "Ethereal Impact",
+  "SPIRITS-ETHEREAL_IMPACT.description": "Deal 1 damage. Enemy gains 1 Intangible. You gain 1 Intangible. Void. [Cost 2 → 1].",
+
+  "SPIRITS-EARTHBREAKER.title": "Earthbreaker",
+  "SPIRITS-EARTHBREAKER.description": "Deal 6 (7) damage. Gain 4 (5) Block. Plated Armor 2 (3). Vulnerable 1. Draw 1. [Repeat once].",
+
+  "SPIRITS-NONLOCALITY.title": "Nonlocality",
+  "SPIRITS-NONLOCALITY.description": "Remove Etherealized state and all negative statuses. Retain. [Cost 1 → 0].",
+
+  "SPIRITS-BEDROCK.title": "Bedrock",
+  "SPIRITS-BEDROCK.description": "Gain 5 (7) Block. This turn, Stone Remnant triggers do not consume Stone Remnants. !Consume.",
+
+  "SPIRITS-LAYERED_ROCK.title": "Layered Rock",
+  "SPIRITS-LAYERED_ROCK.description": "Gain 8 (11) Block. Plated Armor 4.",
+
+  "SPIRITS-SOLID_ROCK.title": "Solid Rock",
+  "SPIRITS-SOLID_ROCK.description": "Innate. Gain 6 (8) Plated Armor. Gain 8 (16) Block.",
+
+  "SPIRITS-MAGNETIZE.title": "Magnetize",
+  "SPIRITS-MAGNETIZE.description": "Consume all Stone Remnants. For each stack: gain X Plated Armor (X+1), gain 1 Energy.",
+
+  "SPIRITS-PETRIFYING_HEX.title": "Petrifying Hex",
+  "SPIRITS-PETRIFYING_HEX.description": "Apply Weak 3 (5) to ALL enemies. Apply Vulnerable 3 (5) to ALL enemies. Gain 3 (4) Stone Remnants.",
+
+  "SPIRITS-EMBER_BREW.title": "Ember Brew",
+  "SPIRITS-EMBER_BREW.description": "Lose 4 HP. Gain Flash 1. Gain 2 Strength.",
+
+  "SPIRITS-SMOKE_CLEARS.title": "Smoke Clears",
+  "SPIRITS-SMOKE_CLEARS.description": "Gain 1 (2) Flash, then double Flash. Consume.",
+
+  "SPIRITS-EMBER_PACT.title": "Ember Pact",
+  "SPIRITS-EMBER_PACT.description": "Consume 1 card from hand. Draw 2 (3) cards. Flash 1. Consume.",
+
+  "SPIRITS-FIRE_REMNANT_CARD.title": "Fire Remnant",
+  "SPIRITS-FIRE_REMNANT_CARD.description": "Gain 1 (2) Fire Remnant. If no Activate Fire Remnant in hand, add one.",
+
+  "SPIRITS-IN_AN_INSTANT.title": "In an Instant",
+  "SPIRITS-IN_AN_INSTANT.description": "Innate. Gain Flash 2. Gain 7 Static Remnants.",
+
+  "SPIRITS-GLIDING_SHADOW.title": "Gliding Shadow",
+  "SPIRITS-GLIDING_SHADOW.description": "Draw 1 card. Gain 2 (4) Static Remnants.",
+
+  "SPIRITS-ELECTRIC_VORTEX.title": "Electric Vortex",
+  "SPIRITS-ELECTRIC_VORTEX.description": "Gain 6 (8) Block. Apply Vulnerable 1. Gain 3 Static Remnants.",
+
+  "SPIRITS-WATER_WEARS_STONE.title": "Water Wears Stone",
+  "SPIRITS-WATER_WEARS_STONE.description": "Draw 2 cards. Gain 5 (8) Block. [Static Remnants 6].",
+
+  "SPIRITS-BULWARK.title": "Bulwark",
+  "SPIRITS-BULWARK.description": "Gain 8 (10) Static Remnants, then gain Block equal to your Static Remnants.",
+
+  "SPIRITS-REAL_PHASE_CARD.title": "Real Phase",
+  "SPIRITS-REAL_PHASE_CARD.description": "Gain 3 Static Remnants. Next SR trigger deals double damage. Apply Real Phase 1. [Cost 1 → 0].",
+
+  "SPIRITS-IMAGINARY_PHASE_CARD.title": "Imaginary Phase",
+  "SPIRITS-IMAGINARY_PHASE_CARD.description": "Gain 3 Static Remnants. Next SR trigger doesn't consume. Void. Apply Imaginary Phase 1. [Cost 1 → 0].",
+
+  "SPIRITS-WIND_FILLS_TOWER.title": "Wind Fills Tower",
+  "SPIRITS-WIND_FILLS_TOWER.description": "Innate. Gain 10 (13) Static Remnants. Consume.",
+
+  "SPIRITS-BY_THEIR_STRENGTH.title": "By Their Strength",
+  "SPIRITS-BY_THEIR_STRENGTH.description": "Gain 9 (12) Block. Void. If you take damage this turn, add Return It in Kind to hand.",
+
+  "SPIRITS-ROLLING_BOULDER.title": "Rolling Boulder",
+  "SPIRITS-ROLLING_BOULDER.description": "Deal 8 (10) damage. Flash 1. Draw 1 [3].",
+
+  "SPIRITS-RECTIFY.title": "Rectify",
+  "SPIRITS-RECTIFY.description": "Void. Discard hand, reshuffle. Gain 1 (2) Energy. Draw 3 cards.",
+
+  "SPIRITS-FLAME_SHIELD.title": "Flame Shield",
+  "SPIRITS-FLAME_SHIELD.description": "Gain 8 (11) Block. Whenever attacked, deal 2 (3) damage to attacker.",
+
+  "SPIRITS-SUNFIRE_LASH.title": "Sunfire Lash",
+  "SPIRITS-SUNFIRE_LASH.description": "Deal 3 (5) damage to 3 random enemies. Apply Weak 2.",
+
+  "SPIRITS-SACRIFICIAL_HEART.title": "Sacrificial Heart",
+  "SPIRITS-SACRIFICIAL_HEART.description": "Void. At the start of each turn, deal 4 (6) damage to ALL enemies.",
+
+  "SPIRITS-ENERGIZE.title": "Energize",
+  "SPIRITS-ENERGIZE.description": "Draw 2 cards. Gain 7 (9) Static Remnants.",
+
+  "SPIRITS-SHADOW_MAKES_THREE.title": "Shadow Makes Three",
+  "SPIRITS-SHADOW_MAKES_THREE.description": "Lose 5 HP. Gain 35 (45) Block.",
+
+  "SPIRITS-SPOT_THE_OPENING.title": "Spot the Opening",
+  "SPIRITS-SPOT_THE_OPENING.description": "If an enemy intends to attack, gain 3 (4) Dexterity and Flash 1.",
+
+  "SPIRITS-ASTRAL_STEP.title": "Astral Step",
+  "SPIRITS-ASTRAL_STEP.description": "Void. Add 2 Spirit Blades to hand.",
+
+  "SPIRITS-RESONANCE.title": "Resonance",
+  "SPIRITS-RESONANCE.description": "Void. When you play your next card, draw every card of same rarity from draw and discard piles.",
+
+  "SPIRITS-RETURN_TO_ORIGIN.title": "Return to Origin",
+  "SPIRITS-RETURN_TO_ORIGIN.description": "Void. Repeatedly consume Flash 1 / Stone Remnants 2 / Static Remnants 4 until can't. Gain 1 Intangible per full cycle. [Cost 2 → 1].",
+
+  "SPIRITS-POLISH_JADE.title": "Polish Jade",
+  "SPIRITS-POLISH_JADE.description": "Void. Choose 1 of 3 random non-colorless class cards. Put it in your hand at 0 cost. [Cost 1 → 0].",
+
+  "SPIRITS-AETHER_REMNANT.title": "Aether Remnant",
+  "SPIRITS-AETHER_REMNANT.description": "Draw 8 (10) cards. Void.",
+
+  "SPIRITS-CRAVING.title": "Craving",
+  "SPIRITS-CRAVING.description": "Lose 3 HP. Draw 2 cards. Gain 1 Energy. [Cost 1 → 0].",
+
+  "SPIRITS-EVER_FIRM.title": "Ever Firm",
+  "SPIRITS-EVER_FIRM.description": "Gain 7 (9) Plated Armor. Immediately gain Block equal to your Plated Armor.",
+
+  "SPIRITS-BALL_LIGHTNING.title": "Ball Lightning",
+  "SPIRITS-BALL_LIGHTNING.description": "Deal 3X damage. Draw X cards. Refund 1 Energy per Attack drawn. [X+1 when upgraded].",
+
+  "SPIRITS-DRUNKEN_FIST.title": "Drunken Fist",
+  "SPIRITS-DRUNKEN_FIST.description": "Lose 1 HP and gain 2 Dex and 2 Str, X times [X+1].",
+
+  "SPIRITS-GRAY_FLY.title": "Gray Fly",
+  "SPIRITS-GRAY_FLY.description": "Draw 3 (4) cards. Flash 2. Consume.",
+
+  "SPIRITS-THOUSAND_CRAGS.title": "Thousand Crags",
+  "SPIRITS-THOUSAND_CRAGS.description": "At the end of your turn, gain 1 (2) Stone Remnants.",
+
+  "SPIRITS-STONE_CORE.title": "Stone Core",
+  "SPIRITS-STONE_CORE.description": "Gain 4 (5) Stone Remnants.",
+
+  "SPIRITS-BOULDER_FORM.title": "Boulder Form",
+  "SPIRITS-BOULDER_FORM.description": "Etherealize. Immune to Vulnerable/Frail/Weak. Consume all Stone Remnants, gain Block=8x, Plated Armor=4x, Strength=2x. Retain.",
+
+  "SPIRITS-CRYSTALLIZATION.title": "Crystallization",
+  "SPIRITS-CRYSTALLIZATION.description": "Innate. Your Plated Armor gains +1 instead of -1 at end of turn.",
+
+  "SPIRITS-EMBER_FORM.title": "Ember Form",
+  "SPIRITS-EMBER_FORM.description": "Etherealize. Each turn start: draw 1 card, gain Flash 1. Flash 1.",
+
+  "SPIRITS-IONIZATION.title": "Ionization",
+  "SPIRITS-IONIZATION.description": "Innate. After Static Remnants trigger, gain 4 Static Remnants.",
+
+  "SPIRITS-STORM_FORM.title": "Storm Form",
+  "SPIRITS-STORM_FORM.description": "Etherealize. Cost cap becomes 1. Cards drawn cost 1. When you play a 0-cost card, draw 1.",
+
+  "SPIRITS-EVER_CHANGING.title": "Ever Changing",
+  "SPIRITS-EVER_CHANGING.description": "Void. At end of turn: consume 4 SR→Flash 2; Flash 2→SR 8; SR 8→Stone 4. [Cost 1 → 0].",
+
+  "SPIRITS-UNIFIED_FIELD_THEORY.title": "Unified Field Theory",
+  "SPIRITS-UNIFIED_FIELD_THEORY.description": "Innate. Void. At start of turn, randomly gain Flash 1, Stone Remnants 2, or Static Remnants 4.",
+
+  "SPIRITS-VOID_FORM.title": "Void Form",
+  "SPIRITS-VOID_FORM.description": "Etherealize. Cards in hand without Void gain Void; cards with Void lose it.",
+
+  "SPIRITS-ELEMENTAL_SEPARATION.title": "Elemental Separation",
+  "SPIRITS-ELEMENTAL_SEPARATION.description": "Innate. Etherealize. Each turn start, add 4 random elemental cards to hand.",
+
+  "SPIRITS-READ_THE_FOE.title": "Read the Foe",
+  "SPIRITS-READ_THE_FOE.description": "If you took no damage last turn, gain 1 (2) Energy at the start of your turn.",
+
+  "SPIRITS-INTRINSIC_ADVANTAGE.title": "Intrinsic Advantage",
+  "SPIRITS-INTRINSIC_ADVANTAGE.description": "Innate. Gain 1 (2) Max HP.",
+
+  "SPIRITS-ENTANGLEMENT.title": "Entanglement",
+  "SPIRITS-ENTANGLEMENT.description": "Void. Whenever you gain Flash, Stone Remnants, or Static Remnants, also gain 1 (2) temporary Dexterity.",
+
+  "SPIRITS-UNFETTERED.title": "Unfettered",
+  "SPIRITS-UNFETTERED.description": "Innate. You may play Curse and Status cards. They are Consumed.",
+
+  "SPIRITS-DROWN_SORROW.title": "Drown Sorrow",
+  "SPIRITS-DROWN_SORROW.description": "Innate. Whenever you take damage during your turn, if HP < 50%, heal 2 (4).",
+
+  "SPIRITS-OVERLOAD_POWER.title": "Overload",
+  "SPIRITS-OVERLOAD_POWER.description": "Innate. After using a Skill, gain 1 Overload. Overload cap = Overload stacks.",
+
+  "SPIRITS-VOID_ECHO.title": "Void Echo",
+  "SPIRITS-VOID_ECHO.description": "Void. At start of turn, return 1 random card from consumed pile to hand. [Cost 2 → 1]."
+}

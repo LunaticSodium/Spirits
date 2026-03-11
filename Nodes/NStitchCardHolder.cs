@@ -1,4 +1,4 @@
-﻿using Godot;
+using Godot;
 using MegaCrit.Sts2.Core.Helpers;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Nodes.Cards;
@@ -12,7 +12,7 @@ using System;
 using BaseLib.Utils;
 using BaseLib.Abstracts;
 
-namespace Oddmelt.Nodes;
+namespace Spirits.Nodes;
 
 public partial class NStitchCardHolder : NCardHolder, IPoolable
 {

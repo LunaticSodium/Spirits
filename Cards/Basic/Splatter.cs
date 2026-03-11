@@ -1,16 +1,16 @@
-﻿using MegaCrit.Sts2.Core.Commands;
+using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
-using Oddmelt.Powers;
+using Spirits.Powers;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Cards.Basic;
+namespace Spirits.Cards.Basic;
 
-public class Splatter() : OddmeltCard(0, CardType.Skill, CardRarity.Basic, TargetType.AllEnemies)
+public class Splatter() : SpiritsCard(0, CardType.Skill, CardRarity.Basic, TargetType.AllEnemies)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Debuff", 2), new DissolveVar(5), new DynamicVar("Debuff2", 3)];
 

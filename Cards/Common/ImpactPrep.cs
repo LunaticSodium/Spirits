@@ -1,4 +1,4 @@
-﻿using BaseLib.Extensions;
+using BaseLib.Extensions;
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
@@ -8,9 +8,9 @@ using MegaCrit.Sts2.Core.ValueProps;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Cards.Common;
+namespace Spirits.Cards.Common;
 
-public class ImpactPrep() : OddmeltCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
+public class ImpactPrep() : SpiritsCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new BlockVar(7, ValueProp.Move),

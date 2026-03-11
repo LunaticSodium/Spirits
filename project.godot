@@ -10,13 +10,13 @@ config_version=5
 
 [application]
 
-config/name="Oddmelt"
-config/features=PackedStringArray("4.5", "C#", "Mobile")
+config/name="Spirits"
+config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
 [dotnet]
 
-project/assembly_name="Oddmelt"
+project/assembly_name="Spirits"
 
 [rendering]
 

@@ -1,7 +1,7 @@
-﻿using BaseLib.Extensions;
+using BaseLib.Extensions;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 
-namespace Oddmelt.Cards;
+namespace Spirits.Cards;
 
 public class DissolveVar : DynamicVar
 {

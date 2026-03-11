@@ -1,0 +1,56 @@
+{
+  "SPIRITS-CORRODED_RIBBON.title": "Corroded Ribbon",
+  "SPIRITS-CORRODED_RIBBON.flavor": "A miraculous survivor of the disposal process, the last remaining keepsake of a life never lived.",
+  "SPIRITS-CORRODED_RIBBON.description": "Attacks deal [blue]{ExtraDamage}[/blue] additional damage to debuffed enemies.",
+  "SPIRITS-IMPURE_COIL.title": "Impure Coil",
+  "SPIRITS-IMPURE_COIL.flavor": "The vile substance, now in harmony with its container.",
+  "SPIRITS-IMPURE_COIL.description": "Attacks deal [blue]{ExtraDamage}[/blue] additional damage for each debuff enemies have.",
+
+  "SPIRITS-RAMMED_EARTH.title": "Rammed Earth",
+  "SPIRITS-RAMMED_EARTH.description": "At the start of each combat, begin with 2 Stone Remnants.",
+  "SPIRITS-RAMMED_EARTH.flavor": "",
+
+  "SPIRITS-STONE_PACT.title": "Stone Pact",
+  "SPIRITS-STONE_PACT.description": "TODO: implement Stone Pact effect.",
+  "SPIRITS-STONE_PACT.flavor": "",
+
+  "SPIRITS-COLD_ASH.title": "Cold Ash",
+  "SPIRITS-COLD_ASH.description": "TODO: implement Cold Ash effect.",
+  "SPIRITS-COLD_ASH.flavor": "",
+
+  "SPIRITS-SHADOW_IN_MIRROR.title": "Shadow in Mirror",
+  "SPIRITS-SHADOW_IN_MIRROR.description": "TODO: implement Shadow in Mirror effect.",
+  "SPIRITS-SHADOW_IN_MIRROR.flavor": "",
+
+  "SPIRITS-OSCILLATION_CIRCUIT.title": "Oscillation Circuit",
+  "SPIRITS-OSCILLATION_CIRCUIT.description": "TODO: implement Oscillation Circuit effect.",
+  "SPIRITS-OSCILLATION_CIRCUIT.flavor": "",
+
+  "SPIRITS-FORMLESS_TWIN_BLADES.title": "Formless Twin Blades",
+  "SPIRITS-FORMLESS_TWIN_BLADES.description": "TODO: implement Formless Twin Blades effect.",
+  "SPIRITS-FORMLESS_TWIN_BLADES.flavor": "",
+
+  "SPIRITS-THREE_BOWLS.title": "Three Bowls",
+  "SPIRITS-THREE_BOWLS.description": "TODO: implement Three Bowls effect.",
+  "SPIRITS-THREE_BOWLS.flavor": "",
+
+  "SPIRITS-CIVIL_ENGINEERING.title": "Civil Engineering",
+  "SPIRITS-CIVIL_ENGINEERING.description": "TODO: implement Civil Engineering effect.",
+  "SPIRITS-CIVIL_ENGINEERING.flavor": "",
+
+  "SPIRITS-JIUTAI.title": "Jiutai",
+  "SPIRITS-JIUTAI.description": "TODO: implement Jiutai effect.",
+  "SPIRITS-JIUTAI.flavor": "",
+
+  "SPIRITS-FEEDBACK_CIRCUIT.title": "Feedback Circuit",
+  "SPIRITS-FEEDBACK_CIRCUIT.description": "TODO: implement Feedback Circuit effect.",
+  "SPIRITS-FEEDBACK_CIRCUIT.flavor": "",
+
+  "SPIRITS-EMBER_LANTERN.title": "Ember Lantern",
+  "SPIRITS-EMBER_LANTERN.description": "TODO: implement Ember Lantern effect.",
+  "SPIRITS-EMBER_LANTERN.flavor": "",
+
+  "SPIRITS-UNBOUND.title": "Unbound",
+  "SPIRITS-UNBOUND.description": "TODO: implement Unbound effect.",
+  "SPIRITS-UNBOUND.flavor": ""
+}

@@ -1,4 +1,4 @@
-﻿using BaseLib.Extensions;
+using BaseLib.Extensions;
 using BaseLib.Utils.Patching;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Commands;
@@ -6,14 +6,14 @@ using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
-using Oddmelt.Cards;
+using Spirits.Cards;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Patches;
+namespace Spirits.Patches;
 
 [HarmonyPatch(typeof(CardPileCmd), nameof(CardPileCmd.ShuffleIfNecessary))]
 class ShuffleNotNecessary
@@ -22,7 +22,7 @@ class ShuffleNotNecessary
     static bool SkipIfOnlyWoven(PlayerChoiceContext choiceContext, Player player, ref Task __result)
     {
         CardPile discard = PileType.Discard.GetPile(player);
-        if (discard.Cards.All((card) => card.Keywords.Contains(OddmeltKeywords.Woven)))
+        if (discard.Cards.All((card) => card.Keywords.Contains(SpiritsKeywords.Woven)))
         {
             __result = Task.CompletedTask;
             return false;

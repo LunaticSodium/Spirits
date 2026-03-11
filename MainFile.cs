@@ -2,10 +2,11 @@ using BaseLib.Utils;
 using Godot;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Modding;
-using Oddmelt.Patches;
-using Oddmelt.Nodes;
+using Spirits.Patches;
+using Spirits.Nodes;
+using Spirits.Diagnostics;
 
-namespace Oddmelt;
+namespace Spirits;
 
 /**
  * Ideas
@@ -25,7 +26,7 @@ namespace Oddmelt;
 [ModInitializer(nameof(Initialize))]
 public class MainFile
 {
-    public const string ModID = "Oddmelt";
+    public const string ModID = "Spirits";
 
     public static MegaCrit.Sts2.Core.Logging.Logger Logger { get; } = new(ModID, MegaCrit.Sts2.Core.Logging.LogType.Generic);
 
@@ -38,5 +39,6 @@ public class MainFile
         harmony.PatchAll();
 
         GeneratedNodePool.Init(NStitchCardHolder.NewInstanceForPool, 25);
+        Introspection.Run();
     }
 }

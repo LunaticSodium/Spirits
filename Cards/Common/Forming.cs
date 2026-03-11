@@ -1,19 +1,19 @@
-﻿using BaseLib.Utils;
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Nodes.Cards;
 using MegaCrit.Sts2.Core.ValueProps;
-using Oddmelt.Patches;
+using Spirits.Patches;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Cards.Common;
+namespace Spirits.Cards.Common;
 
-public class Forming() : OddmeltCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
+public class Forming() : SpiritsCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [OddmeltKeywords.Stitch];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [SpiritsKeywords.Stitch];
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new BlockVar(4, ValueProp.Move),
         ];

@@ -1,4 +1,4 @@
-﻿using BaseLib.Utils;
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
@@ -6,13 +6,13 @@ using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Cards.Common;
+namespace Spirits.Cards.Common;
 
-public class LooseThreads() : OddmeltCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
+public class LooseThreads() : SpiritsCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new CardsVar(3)];
 
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [OddmeltKeywords.Woven];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [SpiritsKeywords.Woven];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {

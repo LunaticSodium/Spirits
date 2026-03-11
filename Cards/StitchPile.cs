@@ -1,4 +1,4 @@
-﻿using BaseLib.Abstracts;
+using BaseLib.Abstracts;
 using BaseLib.Patches.Content;
 using Godot;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -6,10 +6,10 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Nodes.Cards;
 using MegaCrit.Sts2.Core.Saves;
 using MegaCrit.Sts2.Core.Settings;
-using Oddmelt.Patches;
-using Oddmelt.Nodes;
+using Spirits.Patches;
+using Spirits.Nodes;
 
-namespace Oddmelt.Cards;
+namespace Spirits.Cards;
 
 //First part of stitch works fine
 //currently is jank when card is played though

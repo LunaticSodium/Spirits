@@ -1,4 +1,4 @@
-﻿using BaseLib.Utils;
+using BaseLib.Utils;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
@@ -10,13 +10,13 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Nodes.Cards;
 using MegaCrit.Sts2.Core.Saves;
 using MegaCrit.Sts2.Core.Settings;
-using Oddmelt.Cards;
+using Spirits.Cards;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Oddmelt.Nodes;
+using Spirits.Nodes;
 
-namespace Oddmelt.Patches;
+namespace Spirits.Patches;
 
 public class StitchHelper
 {
@@ -34,7 +34,7 @@ public class StitchHelper
         {
             return;
         }
-        if (card.Keywords.Contains(OddmeltKeywords.Stitched))
+        if (card.Keywords.Contains(SpiritsKeywords.Stitched))
         {
             return;
         }
@@ -69,7 +69,7 @@ public class StitchHelper
         StitchedCard.Set(handCard, card);
         StitchedParent.Set(card, handCard);
 
-        card.AddKeyword(OddmeltKeywords.Stitched);
+        card.AddKeyword(SpiritsKeywords.Stitched);
 
         //No need to do visuals; card's destination will be set to stitch pile which will resolve through CardCmd.Add -> StitchPile
     }

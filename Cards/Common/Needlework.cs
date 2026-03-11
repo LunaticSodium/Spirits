@@ -1,4 +1,4 @@
-﻿using BaseLib.Extensions;
+using BaseLib.Extensions;
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
@@ -9,9 +9,9 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using BaseLib.Cards.Variables;
 
-namespace Oddmelt.Cards.Common;
+namespace Spirits.Cards.Common;
 
-public class Needlework() : OddmeltCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
+public class Needlework() : SpiritsCard(1, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(9, ValueProp.Move), new PersistVar(1)];
 

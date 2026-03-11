@@ -1,4 +1,4 @@
-﻿using BaseLib.Utils;
+using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
@@ -6,9 +6,9 @@ using MegaCrit.Sts2.Core.ValueProps;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Oddmelt.Cards.Uncommon;
+namespace Spirits.Cards.Uncommon;
 
-public class Rotation() : OddmeltCard(0, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy)
+public class Rotation() : SpiritsCard(0, CardType.Attack, CardRarity.Uncommon, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [new DamageVar(1, ValueProp.Move), new BlockVar(1, ValueProp.Move), new CardsVar(1)];
 

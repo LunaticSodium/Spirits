@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Texture2D" path="res://images/spirits/placeholder.png" id="1"]
+
+[node name="Spirits" type="Node2D"]
+
+[node name="Bounds" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -103.0
+offset_top = -341.0
+offset_right = 108.0
+offset_bottom = 2.0
+
+[node name="CenterPos" type="Marker2D" parent="."]
+position = Vector2(3, -181)
+
+[node name="IntentPos" type="Marker2D" parent="."]
+position = Vector2(1, -328)
+
+[node name="Visuals" type="Sprite2D" parent="."]
+position = Vector2(7, -172)
+texture = ExtResource("1")
