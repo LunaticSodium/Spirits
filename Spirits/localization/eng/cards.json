@@ -156,7 +156,7 @@
   "SPIRITS-POLISH_JADE.description": "Void. Choose 1 of 3 random non-colorless class cards. Put it in your hand at 0 cost. [Cost 1 → 0].",
 
   "SPIRITS-AETHER_REMNANT.title": "Aether Remnant",
-  "SPIRITS-AETHER_REMNANT.description": "Draw {Cards:diff()} {Cards:plural:card|cards}. Void.",
+  "SPIRITS-AETHER_REMNANT.description": "Gain {Block:diff()} [gold]Block[/gold]. Gain {StaticGain:diff()} [gold]Static Remnants[/gold]. Draw {Cards:diff()} {Cards:plural:card|cards}. Void.",
 
   "SPIRITS-CRAVING.title": "Craving",
   "SPIRITS-CRAVING.description": "Lose 3 HP. Draw 2 cards. Gain 1 Energy. [Cost 1 → 0].",
@@ -210,7 +210,7 @@
   "SPIRITS-READ_THE_FOE.description": "If you took no damage last turn, gain {Energy:diff()} Energy at the start of your turn.",
 
   "SPIRITS-INTRINSIC_ADVANTAGE.title": "Intrinsic Advantage",
-  "SPIRITS-INTRINSIC_ADVANTAGE.description": "Innate. Gain {MaxHp:diff()} Max HP.",
+  "SPIRITS-INTRINSIC_ADVANTAGE.description": "Innate. Gain 1 Energy. Heal {Heal:diff()} HP.",
 
   "SPIRITS-ENTANGLEMENT.title": "Entanglement",
   "SPIRITS-ENTANGLEMENT.description": "Void. Whenever you gain [gold]Flash[/gold], [gold]Stone Remnants[/gold], or [gold]Static Remnants[/gold], also gain {Dex:diff()} temporary Dexterity.",

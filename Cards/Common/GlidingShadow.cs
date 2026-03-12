@@ -9,7 +9,7 @@ namespace Spirits.Cards.Common;
 
 public class GlidingShadow() : SpiritsCard(0, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("StaticGain", 2)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("StaticGain", 3)];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {

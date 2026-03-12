@@ -11,7 +11,7 @@ namespace Spirits.Cards.Uncommon;
 
 public class StoneCore() : SpiritsCard(0, CardType.Power, CardRarity.Uncommon, TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("StoneGain", 4)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("StoneGain", 3)];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {

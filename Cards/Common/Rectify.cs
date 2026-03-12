@@ -11,7 +11,7 @@ public class Rectify() : SpiritsCard(0, CardType.Skill, CardRarity.Common, Targe
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DynamicVar("Energy", 1),
-        new DynamicVar("Cards", 3)
+        new DynamicVar("Cards", 1)
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
@@ -26,6 +26,6 @@ public class Rectify() : SpiritsCard(0, CardType.Skill, CardRarity.Common, Targe
 
     protected override void OnUpgrade()
     {
-        DynamicVars["Energy"].UpgradeValueBy(1m);
+        DynamicVars["Cards"].UpgradeValueBy(1m);
     }
 }

@@ -11,7 +11,7 @@ public class Energize() : SpiritsCard(1, CardType.Skill, CardRarity.Common, Targ
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
         new DynamicVar("Cards", 2),
-        new DynamicVar("StaticGain", 7)
+        new DynamicVar("StaticGain", 6)
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
@@ -22,7 +22,7 @@ public class Energize() : SpiritsCard(1, CardType.Skill, CardRarity.Common, Targ
 
     protected override void OnUpgrade()
     {
-        DynamicVars["StaticGain"].UpgradeValueBy(2m);
+        DynamicVars["StaticGain"].UpgradeValueBy(3m);
         // TODO: Cards count unchanged on upgrade
     }
 }

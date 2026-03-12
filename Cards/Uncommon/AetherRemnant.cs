@@ -4,12 +4,17 @@ using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
+using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Spirits.Cards.Uncommon;
 
 public class AetherRemnant() : SpiritsCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Cards", 8)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [
+        new BlockVar(8, ValueProp.Move),
+        new DynamicVar("StaticGain", 8),
+        new DynamicVar("Cards", 8)
+    ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
@@ -19,6 +24,8 @@ public class AetherRemnant() : SpiritsCard(2, CardType.Skill, CardRarity.Uncommo
 
     protected override void OnUpgrade()
     {
+        DynamicVars.Block.UpgradeValueBy(2m);
+        DynamicVars["StaticGain"].UpgradeValueBy(2m);
         DynamicVars["Cards"].UpgradeValueBy(2m);
     }
 }

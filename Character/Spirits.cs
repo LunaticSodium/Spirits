@@ -52,7 +52,7 @@ public class Spirits : PlaceholderCharacterModel
             ModelDb.Card<ThunderClap>()
     ];
 
-    public override IReadOnlyList<RelicModel> StartingRelics => [ModelDb.Relic<CorrodedRibbon>()];
+    public override IReadOnlyList<RelicModel> StartingRelics => [ModelDb.Relic<RammedEarth>()];
 
 
     //Visuals

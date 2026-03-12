@@ -9,17 +9,17 @@ namespace Spirits.Cards.Uncommon;
 
 public class IntrinsicAdvantage() : SpiritsCard(0, CardType.Power, CardRarity.Uncommon, TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("MaxHp", 1)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Heal", 3)];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
         // TODO: Innate
-        // TODO: Gain Max HP equal to DynamicVars["MaxHp"].BaseValue
+        // TODO: Gain 1 Energy and heal DynamicVars["Heal"].BaseValue HP
         await Task.CompletedTask;
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars["MaxHp"].UpgradeValueBy(1m);
+        DynamicVars["Heal"].UpgradeValueBy(3m);
     }
 }

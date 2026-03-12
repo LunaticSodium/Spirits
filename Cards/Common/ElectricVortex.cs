@@ -11,7 +11,7 @@ namespace Spirits.Cards.Common;
 public class ElectricVortex() : SpiritsCard(1, CardType.Skill, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new BlockVar(6, ValueProp.Move),
+        new BlockVar(5, ValueProp.Move),
         new DynamicVar("StaticGain", 3)
     ];
 
@@ -24,6 +24,6 @@ public class ElectricVortex() : SpiritsCard(1, CardType.Skill, CardRarity.Common
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Block.UpgradeValueBy(2m);
+        DynamicVars.Block.UpgradeValueBy(3m);
     }
 }

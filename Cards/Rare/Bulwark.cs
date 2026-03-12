@@ -9,7 +9,7 @@ namespace Spirits.Cards.Rare;
 
 public class Bulwark() : SpiritsCard(1, CardType.Skill, CardRarity.Rare, TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("StaticGain", 8)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("StaticGain", 7)];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
@@ -20,6 +20,6 @@ public class Bulwark() : SpiritsCard(1, CardType.Skill, CardRarity.Rare, TargetT
 
     protected override void OnUpgrade()
     {
-        DynamicVars["StaticGain"].UpgradeValueBy(2m);
+        DynamicVars["StaticGain"].UpgradeValueBy(3m);
     }
 }

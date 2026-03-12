@@ -12,7 +12,7 @@ namespace Spirits.Cards.Common;
 public class GrayFly() : SpiritsCard(2, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DynamicVar("Cards", 3),
+        new DynamicVar("Cards", 4),
         new DynamicVar("FlashGain", 2)
     ];
 
@@ -25,6 +25,6 @@ public class GrayFly() : SpiritsCard(2, CardType.Skill, CardRarity.Common, Targe
 
     protected override void OnUpgrade()
     {
-        DynamicVars["Cards"].UpgradeValueBy(1m);
+        DynamicVars["Cards"].UpgradeValueBy(2m);
     }
 }

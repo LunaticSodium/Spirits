@@ -5,5 +5,5 @@ namespace Spirits.Relics;
 public class RammedEarth : SpiritsRelic
 {
     public override RelicRarity Rarity => RelicRarity.Starter;
-    // TODO: At the start of each combat, begin with 2 Stone Remnants.
+    // TODO: At the start of each combat, begin with 3 Stone Remnants.
 }

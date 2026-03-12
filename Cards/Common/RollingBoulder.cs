@@ -13,7 +13,7 @@ namespace Spirits.Cards.Common;
 public class RollingBoulder() : SpiritsCard(1, CardType.Skill, CardRarity.Common, TargetType.AnyEnemy)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars => [
-        new DamageVar(8, ValueProp.Move),
+        new DamageVar(3, ValueProp.Move),
         new DynamicVar("Cards", 1),
         new DynamicVar("FlashGain", 1)
     ];

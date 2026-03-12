@@ -1,13 +1,6 @@
 {
-  "SPIRITS-CORRODED_RIBBON.title": "腐蚀丝带",
-  "SPIRITS-CORRODED_RIBBON.flavor": "",
-  "SPIRITS-CORRODED_RIBBON.description": "攻击对附有异常状态的敌人额外造成[blue]{ExtraDamage}[/blue]点伤害。",
-  "SPIRITS-IMPURE_COIL.title": "不纯线圈",
-  "SPIRITS-IMPURE_COIL.flavor": "",
-  "SPIRITS-IMPURE_COIL.description": "攻击对敌人每个异常状态额外造成[blue]{ExtraDamage}[/blue]点伤害。",
-
   "SPIRITS-RAMMED_EARTH.title": "垒土",
-  "SPIRITS-RAMMED_EARTH.description": "战斗开始时，获得2点残岩。",
+  "SPIRITS-RAMMED_EARTH.description": "战斗开始时，获得3点残岩。",
   "SPIRITS-RAMMED_EARTH.flavor": "",
 
   "SPIRITS-STONE_PACT.title": "岩契",
@@ -35,7 +28,7 @@
   "SPIRITS-THREE_BOWLS.flavor": "",
 
   "SPIRITS-CIVIL_ENGINEERING.title": "土木工程",
-  "SPIRITS-CIVIL_ENGINEERING.description": "每回合开始时，你和敌人各获得3点附甲。",
+  "SPIRITS-CIVIL_ENGINEERING.description": "每回合开始时，你和敌人各获得4点附甲。",
   "SPIRITS-CIVIL_ENGINEERING.flavor": "",
 
   "SPIRITS-JIUTAI.title": "九台",
@@ -47,7 +40,7 @@
   "SPIRITS-FEEDBACK_CIRCUIT.flavor": "",
 
   "SPIRITS-EMBER_LANTERN.title": "灰烬提灯",
-  "SPIRITS-EMBER_LANTERN.description": "瞬间触发时只减少3点而非4点。",
+  "SPIRITS-EMBER_LANTERN.description": "瞬间触发时只减少2而非3。",
   "SPIRITS-EMBER_LANTERN.flavor": "",
 
   "SPIRITS-UNBOUND.title": "解缚",

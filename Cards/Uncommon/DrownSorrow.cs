@@ -9,7 +9,7 @@ namespace Spirits.Cards.Uncommon;
 
 public class DrownSorrow() : SpiritsCard(1, CardType.Power, CardRarity.Uncommon, TargetType.Self)
 {
-    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Heal", 2)];
+    protected override IEnumerable<DynamicVar> CanonicalVars => [new DynamicVar("Heal", 6)];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
@@ -20,6 +20,6 @@ public class DrownSorrow() : SpiritsCard(1, CardType.Power, CardRarity.Uncommon,
 
     protected override void OnUpgrade()
     {
-        DynamicVars["Heal"].UpgradeValueBy(2m);
+        DynamicVars["Heal"].UpgradeValueBy(3m);
     }
 }
