@@ -14,7 +14,7 @@ public class SacrificialHeart() : SpiritsCard(0, CardType.Skill, CardRarity.Comm
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay play)
     {
         // TODO: Void
-        // TODO: At the start of each turn, deal DynamicVars["Damage"].BaseValue damage to ALL enemies
+        // TODO: At the end of each turn, deal DynamicVars["Damage"].BaseValue damage to ALL enemies
         await Task.CompletedTask;
     }
 
