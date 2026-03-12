@@ -29,10 +29,6 @@ public class CardPlayDestinationPatch
     //patched to be lower priority than exhaust
     public static PileType ChangeDestination(PileType dest, CardModel model)
     {
-        if (SpiritsKeywords.IsStitch(model))
-        {
-            return StitchPile.CustomType;
-        }
         if (model.Keywords.Contains(SpiritsKeywords.Void))
         {
             return PileType.Exhaust;
