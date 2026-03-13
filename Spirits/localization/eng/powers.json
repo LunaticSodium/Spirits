@@ -1,15 +1,16 @@
 {
-  "SPIRITS-BIND.title": "Bind",
-  "SPIRITS-BIND.description": "Creature's next Attack deals reduced damage.",
-  "SPIRITS-BIND.smartDescription": "{OnPlayer:Your|[gold]{OwnerName}'s[/gold]} next Attack deals [blue]{Amount}[/blue] less damage.",
   "SPIRITS-STONE_REMNANTS.title": "Stone Remnants",
-  "SPIRITS-STONE_REMNANTS.description": "",
+  "SPIRITS-STONE_REMNANTS.description": "Consumed to trigger enhanced [ ] effects. Max 7.",
   "SPIRITS-FLASH.title": "Flash",
-  "SPIRITS-FLASH.description": "",
+  "SPIRITS-FLASH.description": "When Flash reaches 3: gain 1 Intangible, reduce Flash by 3, and end your turn.",
   "SPIRITS-STATIC_REMNANTS.title": "Static Remnants",
-  "SPIRITS-STATIC_REMNANTS.description": "",
+  "SPIRITS-STATIC_REMNANTS.description": "At the start of your next turn, deal [blue]{Amount}[/blue] damage to all enemies (unaffected by Strength or Dexterity), then reset to 0.",
   "SPIRITS-FIRE_REMNANT.title": "Fire Remnant",
-  "SPIRITS-FIRE_REMNANT.description": "",
+  "SPIRITS-FIRE_REMNANT.description": "Consumed by Activate Fire Remnant to gain Flash equal to the stack count.",
   "SPIRITS-OVERLOAD.title": "Overload",
-  "SPIRITS-OVERLOAD.description": ""
+  "SPIRITS-OVERLOAD.description": "When you play an Attack, gain 4 Static Remnants and spend 1 Overload.",
+  "SPIRITS-REAL_PHASE.title": "Real Phase",
+  "SPIRITS-REAL_PHASE.description": "When Static Remnants trigger, resolve the damage again and consume 1 Real Phase.",
+  "SPIRITS-IMAGINARY_PHASE.title": "Imaginary Phase",
+  "SPIRITS-IMAGINARY_PHASE.description": "When Static Remnants trigger, they are not consumed. Consume 1 Imaginary Phase instead."
 }
